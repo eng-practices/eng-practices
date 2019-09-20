@@ -1,28 +1,33 @@
-# 谷歌工程实践文档
+# Google Engineering Practices Documentation
 
-Google 有许多通用工程实践，几乎涵盖所有语言和项目。此文档为长期积累的最佳实践，是集体经验的结晶。我们尽可能地将其公之于众，您的组织和开源项目也会从中受益。
+Google has many generalized engineering practices that cover all languages and
+all projects. These documents represent our collective experience of various
+best practices that we have developed over time. It is possible that open source
+projects or other organizations would benefit from this knowledge, so we work to
+make it available publicly when possible.
 
-当前包含以下文档：
+Currently this contains the following documents:
 
-*   [Google 代码审查指南](review/index.md)，实则两套指南：
-    *   [代码审查者指南](review/reviewer/index.md)
-    *   [代码开发者指南](review/developer/index.md)
+*   [Google's Code Review Guidelines](review/index.md), which are actually two
+    separate sets of documents:
+    *   [The Code Reviewer's Guide](review/reviewer/index.md)
+    *   [The Change Author's Guide](review/developer/index.md)
 
-## 译者序
+## Terminology
 
-此仓库翻译自 [google/eng-practices](https://github.com/google/eng-practices)，目前为止的主要内容为 Google 总结的如何进行 **Code Review（代码审查）** 指南，根据原 Github 仓库的标题判断以后会追加更多 Google 工程实践的内容。
+There is some Google-internal terminology used in some of these documents, which
+we clarify here for external readers:
 
-译者：[Jimmy Song](https://jimmysong.io)
-
-## 术语
-
-文档中使用了 Google 内部术语，在此为外部读者澄清：
-
-*   **CL**：代表“变更列表（changelist）”，表示已提交到版本控制或正在进行代码审查的自包含更改。有的组织会将其称为“变更（change）”或“补丁（patch）”。
-*   **LGTM**：意思是“我觉得不错（Looks Good to Me）”。这是批准 CL 时代码审查者所说的。
+*   **CL**: Stands for "changelist," which means one self-contained change that
+    has been submitted to version control or which is undergoing code review.
+    Other organizations often call this a "change" or a "patch."
+*   **LGTM**: Means "Looks Good to Me." It is what a code reviewer says when
+    approving a CL.
 
 ## License
 
-本项目中的文档适用于 CC-By 3.0 许可证，该许可证鼓励您共享这些文档。有关详细信息，请参阅 <https://creativecommons.org/licenses/by/3.0/>。
+The documents in this project are licensed under the CC-By 3.0 License, which
+encourages you to share these documents. See
+<https://creativecommons.org/licenses/by/3.0/> for more details.
 
 <a rel="license" href="https://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
